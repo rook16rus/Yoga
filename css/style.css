@@ -241,7 +241,7 @@ body {
 }
 
 .direction-item-title {
-    font-family: "Abhaya Libre";
+    font-family: "Abhaya Libre", sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 15px;
@@ -311,3 +311,113 @@ body {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
+.subscription {
+    background: url("../img/direction-bg.png") no-repeat top center;
+    padding-bottom: 150px;
+}
+
+.subscription-title {
+    margin: 0 0 60px;
+}
+
+.subscription-time-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    list-style: none;
+    margin: 0 -65px 40px 0;
+    padding: 0;
+}
+
+.subscription-time-item {
+    margin-right: 65px;
+}
+
+.subscription-time-item a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E65C7B;
+    text-decoration: none;
+}
+
+.subscription-time-item a:hover {
+    text-decoration: underline;
+}
+
+.subscription-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    list-style: none;
+    margin: 40px -30px 0 0;
+    padding: 0;
+}
+
+.subscription-item {
+    margin-right: 50px;
+    padding: 58px 21px 25px;
+    width: 265px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+
+.subscription-item-big {
+    width: 300px;
+    padding: 63px 38px 33px;
+}
+
+.subscription-item-title {
+    font-family: "Abhaya Libre", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+
+    margin: 0 0 20px;
+}
+
+.subscription-item-big .subscription-item-title {
+    font-size: 30px;
+    margin: 0 0 14px;
+}
+
+.subscription-item-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E65C7B;
+    max-width: 88px;
+
+    margin: 20px auto 26px;
+}
+
+.subscription-item-big .subscription-item-text {
+    margin: 14px auto 38px;
+    max-width: 173px;
+}
+
+.subscription-item-price {
+    font-family: "Abhaya Libre", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    margin: 26px 0 27px;
+}
+
+.subscription-item-big .subscription-item-price {
+    font-size: 45px;
+    margin: 38px 0 51px;
+}
+
+.subscription-item-button {
+    width: 100%;
+    margin: 27px 0 0;
+    background: #8E80A9;
+    box-sizing: border-box;
+    text-decoration: none;
+}
