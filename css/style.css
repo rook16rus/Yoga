@@ -200,5 +200,114 @@ body {
 }
 
 .direction {
-    padding-top: 250px;
+    padding-top: 240px;
+    padding-bottom: 50px;
 }
+
+.direction-title {
+    margin: 0 0 60px;
+}
+
+.direction-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 660px;
+}
+
+.direction-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.direction-item-big {
+    width: 350px;
+}
+
+.direction-item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.direction-item-title {
+    font-family: "Abhaya Libre";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+
+    margin: 20px 0 10px;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 15px;
+    padding: 0;
+}
+
+.timetable-item {
+    display: flex;
+}
+
+.timetable-item dt, .timetable-item dd {
+    margin: 0;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.direction-item .link-wrapper, .direction-item-big .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.instructor {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E65C7B;
+
+    margin: 0;
+}
+
+.more-button {
+    padding: 0;
+    width: 45px;
+    background: #8E80A9;
+    font-size: 0;
+
+    position: relative;
+}
+
+.more-button::after {
+    content: "";
+
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-left: transparent;
+    border-bottom: transparent;
+
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
