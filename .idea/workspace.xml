@@ -4,7 +4,6 @@
     <list default="true" id="4d07b8c5-76f7-4f47-ad8a-e9af9c287426" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1603781333732" duration="14489000" />
       <workItem from="1603876385633" duration="3395000" />
       <workItem from="1603891130460" duration="11314000" />
-      <workItem from="1603946655796" duration="16357000" />
+      <workItem from="1603946655796" duration="17534000" />
     </task>
     <task id="LOCAL-00001" summary="Стилизовал шапку сайта">
       <created>1603893959628</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603965496280</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавил иконки социальный сетей в футер">
+      <created>1603966077101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603966077101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +150,7 @@
     <MESSAGE value="Стилизовал блок с командой и галереей. Добавил фоны для блока с направлениями и абонементами" />
     <MESSAGE value="Стилизовал блок с отзывами" />
     <MESSAGE value="Стилизовал футер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стилизовал футер" />
+    <MESSAGE value="Добавил иконки социальный сетей в футер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил иконки социальный сетей в футер" />
   </component>
 </project>

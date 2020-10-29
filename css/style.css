@@ -609,6 +609,21 @@ body {
 .reviews-item-text {
     font-size: 12px;
     margin: 0 0 20px;
+    position: relative;
+}
+
+.reviews-item-text::before {
+    content: '“';
+
+    font-family: "Francois One", sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 15px;
+    color: #8E80A9;
+    opacity: 0.39;
+
+    position: absolute;
+    top: -15px;
 }
 
 .reviews-item:first-child .reviews-item-text {
