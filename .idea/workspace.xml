@@ -74,7 +74,7 @@
       <workItem from="1603781333732" duration="14489000" />
       <workItem from="1603876385633" duration="3395000" />
       <workItem from="1603891130460" duration="11314000" />
-      <workItem from="1603946655796" duration="5783000" />
+      <workItem from="1603946655796" duration="11506000" />
     </task>
     <task id="LOCAL-00001" summary="Стилизовал шапку сайта">
       <created>1603893959628</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603906096328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Стилизовал блок с командой и галереей. Добавил фоны для блока с направлениями и абонементами">
+      <created>1603952697835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603952697835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +127,7 @@
     <MESSAGE value="Стилизовал шапку сайта" />
     <MESSAGE value="Стилизовал блок с направлениями" />
     <MESSAGE value="Стилизовал блок с абонементами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стилизовал блок с абонементами" />
+    <MESSAGE value="Стилизовал блок с командой и галереей. Добавил фоны для блока с направлениями и абонементами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стилизовал блок с командой и галереей. Добавил фоны для блока с направлениями и абонементами" />
   </component>
 </project>

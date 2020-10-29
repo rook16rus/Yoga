@@ -94,7 +94,6 @@ body {
 }
 
 .pagination-label {
-    font-weight: 500;
     font-size: 12px;
     line-height: 30px;
     vertical-align: middle;
@@ -160,7 +159,6 @@ body {
 }
 
 .main-text-big {
-    font-weight: 500;
     font-size: 265px;
     line-height: normal;
     letter-spacing: 0.2em;
@@ -183,7 +181,6 @@ body {
 
     font-weight: 600;
     font-size: 14px;
-    line-height: 20px;
     color: #E65C7B;
     text-decoration: none;
 
@@ -256,7 +253,6 @@ body {
 .city {
     margin: 0;
 
-    font-weight: 500;
     font-size: 16px;
     line-height: 15px;
     color: #8E7EAC;
@@ -264,11 +260,11 @@ body {
 
 .direction {
     padding-top: 350px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     background-image: url("../img/direction-flower-bg.svg"), url("../img/direction-flower-bg.svg"), url("../img/direction-flower-bg.svg");
     background-repeat: no-repeat;
     background-position: center top 290px, top 290px right, bottom right;
-    background-size: 902px 903px, 390px, 390px;
+    background-size: 1002px 1003px, 390px, 390px;
 }
 
 .direction-title {
@@ -332,10 +328,7 @@ body {
 .timetable-item dt, .timetable-item dd {
     margin: 0;
     padding: 0;
-
-    font-weight: 500;
     font-size: 12px;
-    line-height: 20px;
 }
 
 .direction-item .link-wrapper, .direction-item-big .link-wrapper {
@@ -348,7 +341,6 @@ body {
     display: flex;
     flex-direction: column;
 
-    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: #E65C7B;
@@ -380,7 +372,9 @@ body {
 }
 
 .subscription {
-    background: url("../img/direction-bg.png") no-repeat center;
+    margin-top: -100px;
+    padding-bottom: 70px;
+    background: url("../img/direction-bg.png") no-repeat center top -200px;
     background-size: cover;
 }
 
@@ -403,9 +397,7 @@ body {
 }
 
 .subscription-time-item a {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 20px;
     color: #E65C7B;
     text-decoration: none;
 }
@@ -443,7 +435,6 @@ body {
     font-family: "Abhaya Libre", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 20px;
 
     margin: 0 0 20px;
 }
@@ -454,9 +445,7 @@ body {
 }
 
 .subscription-item-text {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 20px;
     color: #E65C7B;
     max-width: 88px;
 
@@ -472,7 +461,6 @@ body {
     font-family: "Abhaya Libre", sans-serif;
     font-weight: bold;
     font-size: 30px;
-    line-height: 20px;
     text-transform: uppercase;
 
     margin: 26px 0 27px;
@@ -527,13 +515,10 @@ body {
     font-family: "Abhaya Libre", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 20px;
 }
 
 .instructor-card-experience {
-    font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
     color: #E65C7B;
 }
 
@@ -586,4 +571,101 @@ body {
 
 .gallery-item {
     margin: 0 10px 10px 0;
+}
+
+.reviews {
+    padding-bottom: 65px;
+}
+
+.reviews-title {
+    margin-bottom: 60px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+    margin: 60px 90px -30px 120px;
+    padding: 0;
+}
+
+.reviews-item {
+    width: 442px;
+    padding: 72px 30px 30px 88px;
+    margin: 0 30px 30px 0;
+    box-shadow: 0 4px 25px 0 rgba(142, 128, 169, 0.2);
+}
+
+.reviews-blockquote {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.reviews-item-text {
+    font-size: 12px;
+    margin: 0 0 20px;
+}
+
+.reviews-item:first-child .reviews-item-text {
+    max-width: 313px;
+}
+
+.reviews-item:last-child .reviews-item-text {
+    max-width: 283px;
+}
+
+.blockquote-author-wrapper {
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: auto;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 13px;
+}
+
+.reviews-blockquote cite {
+    font-size: 12px;
+    color: #E65C7B;
+    opacity: 0.7;
+
+    margin: 0;
+}
+
+.reviews-blockquote time {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.author-socials-list {
+    display: flex;
+    align-items: flex-start;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author-socials-item {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    font-size: 0;
+}
+
+.author-socials-item-vk {
+    background: url("../img/vk.svg") no-repeat center;
+}
+
+.author-socials-item-tw {
+    background: url("../img/tw.svg") no-repeat center;
 }
