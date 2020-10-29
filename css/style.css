@@ -662,7 +662,7 @@ body {
     font-size: 0;
 }
 
-.author-socials-item-vk {
+.author-socials-item-vk, .socials-it {
     background: url("../img/vk.svg") no-repeat center;
 }
 
@@ -723,6 +723,23 @@ body {
 .contacts-item dd a {
     color: #8E80A9;
     text-decoration: none;
+}
+
+.footer-top-text-column .socials-list {
+    margin-left: 125px;
+}
+
+.footer-top-text-column .socials-item {
+    width: 16px;
+    height: 16px;
+}
+
+.footer-top-text-column .socials-vk {
+    background: url("../img/vk.svg") no-repeat center;
+}
+
+.footer-top-text-column .socials-tw {
+    background: url("../img/tw.svg") no-repeat center;
 }
 
 .footer-top-form-column {
