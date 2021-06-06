@@ -1,23 +1,23 @@
 @font-face {
-    font-family: "Core Sans E";
+    font-family: "Abhaya Libre";
     src: url("../fonts/AbhayaLibre-Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
-    font-family: "Core Sans E";
+    font-family: "Francois One";
     src: url("../fonts/FrancoisOne.ttf");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Core Sans E";
+    font-family: "Montserrat";
     src: url("../fonts/Montserrat-Medium.ttf");
     font-weight: 500;
 }
 
 @font-face {
-    font-family: "Core Sans E";
+    font-family: "Montserrat";
     src: url("../fonts/Montserrat-SemiBold.ttf");
     font-weight: 600;
 }
